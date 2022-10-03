@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #d4c7bb;
+    color: #131415;
+    text-rendering: optimizeLegibility;
+    font-family: mulish, serif;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.row{
+	max-width: 114rem;
+	margin: 0 auto;
+}
+
+section{
+	padding: 25px 0;
+}
+
+/*......NAV-BAR....*/
+
+.logo, .logo2{
+   margin-top: 2rem;
+   float: left;
+}
+
+.main-nav{
+    margin-top: 3.5rem;
+    float: left;
+    list-style: none;
+    font-size: 1.8rem;
+    margin-left: 20rem;    
+}
+
+.main-nav li{
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.main-nav a:link,
+.main-nav a:hover{
+    text-decoration: none;
+    color: #131415;
+    transition: font-weight .5s;
+}
+
+.main-nav a:hover,
+.main-nav a:active{
+    font-weight: bold;
+}
+
+.icon{
+    padding-left: 10px;
+}
+
+.btn:link,
+.btn:visited{
+    float: right;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc710e;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    transition: all .5s;
+
+}
+
+.btn:hover,
+.btn:active{
+    color: #dc710e;
+    background-color: #fff;
+}
+
+
+/*......HERO-SECTION....*/
+header{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+.hero{
+    background-image: radial-gradient(circle closest-side, #dc710e 20%, #d4c7bb);/*......radial-gradient( #dc710e, #d4c7bb );....*/
+    margin-top: 200px;
+    height: 50vh;
+    overflow: hidden;
+   
+}
+
+.hero-box{
+    width: 114rem;
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero-text{
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.hero-text span{
+    font-family: inter;
+    font-size: 4rem;
+    display: inline-block;
+    padding-left: 5rem;
+    font-weight: 700;
+}
+
+.hero-text span .dot{
+    height: 10px;
+    width: 10px;
+    background-color: #dc710e;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0;
+}
+
+.img{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.side-bar{
+    width: 114rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.numb{
+    color: #dc710e;
+    float: left;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.numb::after{
+    
+    display: inline-block;
+    height: 8px;
+    background-color: #d68b45;
+    content: " ";
+    width: 40px;
+    margin: 0 auto;
+   
+    position: absolute;
+    top: 2rem;
+    left: -4.5rem;
+}
+
+.para{
+    color: #131415;
+    float: right;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.para img{
+    display: block;
+    width: 20%;
+    margin-left: 6rem;
+    margin-bottom: 2px;
+}
+
+/*......ABOUT-SECTION....*/
+
+.section-about{
+    background-color: #dc710e;
+    overflow: hidden;
+    position: relative;
+    
+   
+    
+}
+
+.about, .nextgen{
+    margin-top: -20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+   
+}
+
+.about h2,.nextgen h2{
+    font-family: inter;
+    font-size: 4rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.about img, .nextgen img{
+    position: absolute;
+    top: 5.8rem;
+    left: 48rem;
+    
+}
+.about p, .nextgen p{
+    font-family: mulish;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15px;
+   
+}
+
+.about p span, .nextgen p span{
+    display: block;
+}
+
+.about .first, .nextgen .first{
+    margin-bottom: .5rem;
+}
+
+.left, .right{
+    font-family: inter;
+    font-weight: 700;
+}
+
+.side, .buttom, .side-right, .buttom-right{
+    font-size: 8rem;
+    color: #f0bf9179;
+    position: absolute;
+    rotate: -90deg;
+    top: 20px;
+    left: -5rem;
+    overflow: hidden;
+}
+
+.side-right{
+    top: -4px;
+    rotate: 90deg;
+    left: 105rem;
+}
+
+.buttom{
+   left: 5rem;
+   top: 24px;
+   font-size: 8rem;
+}
+
+.buttom-right{
+    left: 101rem;
+    top: 55px;
+    font-size: 8rem;
+    rotate: 90deg;
+}
+
+
+
+
+/*......ABOUT-SECTION....*/
+
+.section-nextgen{
+    background-color: #d4c7bb;
+    padding-top: 10rem;
+    position: relative;
+}
+
+.nextgen{
+    color: #131415;
+}
+
+
+.models{
+    margin-top: 35px;
+position: relative;
+  overflow: hidden;
+}
+
+.models img{
+ height: 38rem;
+ width: auto;
+}
+
+.img2{
+    margin-left: -5rem;
+}
+
+.img3{
+    margin-left:8rem;
+}
+
+.img4{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.gen-side{
+    color: #dc710e;
+    font-size: 3rem; 
+    position: absolute;
+    top: 740px;
+    right:  10rem;
+    font-weight: 600;
+}
+
+.gen-side::after{
+    display: inline-block;
+    height: 8px;
+    background-color: #d68b45;
+    content: " ";
+    width: 40px;
+    margin: 0 auto;
+   
+    position: absolute;
+    top: 2rem;
+    right: -4.5rem;
+}
+
+
+
+/*......BECOME....*/
+
+.section-become{
+    margin-top: 100px;
+    background-color: #dc710e;
+    padding: 80px 0;
+    padding-top: 90px;
+    background-image:linear-gradient( rgba(220, 114, 14, 0), rgba(220, 114, 14, 0)), 
+    url(img/image\ 10.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.become-head,.become-para{
+    color: #fff;
+}
+
+.nextgen .become-para{
+    width: 35%;
+    margin-bottom: 40px;
+}
+
+.nextgen a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #dc710e;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+}
+
+footer{
+    font-family: poppins;
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+
+.logo2{
+    width: 15rem;
+}
+
+.iconn{
+    margin-left: 100rem;
+    margin-bottom: 3rem;
+}
+
+.iconn li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 2rem; 
+    
+}
+
+.iconn a{
+    float: right;
+    font-size: 1.4rem;
+    margin-top: 3.5rem;
+    text-decoration: none;
+    color: #dc710e;
+}
+
+.footer-last{
+    color: #a4a499;
+    font-size: 1.6rem;
+    border-top: 1px solid #a4a499;
+}
+
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+}
+
